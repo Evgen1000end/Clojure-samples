@@ -34,5 +34,14 @@
 (def a (pr-str 2))
 (println a)
 
+(def person {:name "Eugene" :city "Moscow"})
 
+(println (:city person))
+
+; namespaces
+(def worker {:job "Development" ::job "Design"})
+
+(println (:job worker) (:clojure-samples.L0/job worker))
+
+; page 46
 
